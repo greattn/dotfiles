@@ -30,11 +30,7 @@ Plug 'easymotion/vim-easymotion'
 
 " coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" git
-Plug 'tpope/vim-fugitive'
-
-"Other
+" Other
 Plug 'alvan/vim-closetag'
 Plug 'voldikss/vim-floaterm'
 Plug 'jiangmiao/auto-pairs'

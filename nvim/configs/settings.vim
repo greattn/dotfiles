@@ -80,7 +80,7 @@ nnoremap   <silent>   <F9>    :FloatermNext<CR>
 tnoremap   <silent>   <F9>    <C-\><C-n>:FloatermNext<CR>
 nnoremap   <silent>   <C-t>   :FloatermToggle<CR>
 tnoremap   <silent>   <C-t>   <C-\><C-n>:FloatermToggle<CR>
-tnoremap   <silent>   <C-n>   <C-\><C-n>
+tnoremap   <silent>   <C-/>   <C-\><C-n>
 nnoremap   <silent>   <leader>tr   :FloatermNew! cd %:p:h<CR>
 
 " Tab visual mode
@@ -95,8 +95,8 @@ nnoremap <silent><leader>f :Files<CR>
 nnoremap <silent><leader>b :Buffers<CR>
 nnoremap <silent><leader>r :Rg<CR>
 nnoremap <silent><leader>hi :History<CR>
-nnoremap <silent><leader>; :History:<CR>
 nnoremap <silent><C-d> /<C-R><C-W><CR>
 
 nnoremap <leader>ss :so %<CR>
 nnoremap f H:call EasyMotion#WB(0, 0)<CR>
+
