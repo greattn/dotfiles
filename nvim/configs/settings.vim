@@ -83,7 +83,7 @@ tnoremap   <silent>   <F9>    <C-\><C-n>:FloatermNext<CR>
 nnoremap   <silent>   <C-t>   :FloatermToggle<CR>
 tnoremap   <silent>   <C-t>   <C-\><C-n>:FloatermToggle<CR>
 inoremap   <silent>   <C-t>   <C-\><C-n>:FloatermToggle<CR>
-tnoremap   <silent>   <C-/>   <C-\><C-n>
+tnoremap   <silent>   <C-h>   <C-\><C-n>
 nnoremap   <silent>   <leader>tr   :FloatermNew! cd %:p:h<CR>
 
 " Tab visual mode

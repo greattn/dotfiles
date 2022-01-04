@@ -109,7 +109,8 @@ alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias cls="clear"
 alias nvimconfig="nvim ~/.config/nvim/init.vim"
-
-alias update="sudo apt-get update"
+alias update="sudo apt update"
+alias clean="sudo apt autoremove && sudo apt clean" 
 
 neofetch --disable cpu gpu
+export PATH="$HOME/.rbenv/bin:$PATH"
