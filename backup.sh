@@ -1,7 +1,7 @@
 #!/bin/bash
 # copy other dot files 
-cp  /home/phongtran/.zshrc .
-cp  /home/phongtran/.config/nvim/init.vim .
-cp  /home/phongtran/.config/kitty/kitty.conf .
+cp  /home/lowkey_dev/.zshrc .
+cp  /home/lowkey_dev/.config/nvim/init.vim .
+cp  /home/lowkey_dev/.config/kitty/kitty.conf .
 
-cp -r /home/phongtran/.config/nvim .
+cp -r /home/lowkey_dev/.config/nvim .
